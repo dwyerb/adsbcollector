@@ -42,7 +42,7 @@ public class FlightPoint {
     }
 
     public void setFlight(String flight) {
-        this.flight = flight;
+        this.flight = flight.trim();
     }
 
     public double getLat() {
